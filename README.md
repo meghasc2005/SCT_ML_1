@@ -101,7 +101,6 @@ Launch the dynamic web UI locally:
 ```bash
 streamlit run src/app.py
 ```
-Open your browser at `http://localhost:8501` to access:
 - **Interactive Valuator**: Adjust square footage and room sliders to view estimated market valuation in real-time.
 - **Model Performance & EDA**: View visual parity charts, error residuals, and key accuracy metrics.
 - **Dataset Overview**: Inspect raw property data and correlation profiles.
