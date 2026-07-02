@@ -1,10 +1,10 @@
-# 🏠 House Price Prediction using Linear Regression
+#  House Price Prediction using Linear Regression
 
 A modular, end-to-end Python machine learning project implementing a **Scikit-Learn Linear Regression model** to predict housing market values using Kaggle's famous **"House Prices - Advanced Regression Techniques"** (`train.csv`) dataset.
 
 ---
 
-## ✨ Features & Capabilities
+##  Features & Capabilities
 
 - **Automated Data Processing**: Robust pipeline handling missing values (`SimpleImputer`), categorical feature encoding (`OneHotEncoder`), and engineered combined features (`TotalBath = FullBath + 0.5 * HalfBath`).
 - **Core Feature Modeling**: Leverages key physical dimensions including Above-Ground Square Footage (`GrLivArea`), Bedrooms (`BedroomAbvGr`), and Bathroom counts (`FullBath` & `HalfBath`).
@@ -15,7 +15,7 @@ A modular, end-to-end Python machine learning project implementing a **Scikit-Le
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```text
 ├── data/
@@ -37,7 +37,7 @@ A modular, end-to-end Python machine learning project implementing a **Scikit-Le
 
 ---
 
-## 🚀 Setup & Installation
+##  Setup & Installation
 
 ### 1. Clone & Navigate to Repository
 Ensure you are inside the project root folder:
@@ -67,7 +67,7 @@ python data/download_data.py
 
 ---
 
-## 🛠️ Usage Instructions
+##  Usage Instructions
 
 ### Command-Line Interface (CLI)
 
@@ -95,7 +95,7 @@ python -m src.cli predict --sqft 2200 --bedrooms 4 --full-bath 2 --half-bath 1
 
 ---
 
-### 🌐 Interactive Streamlit Web App
+###  Interactive Streamlit Web App
 
 Launch the dynamic web UI locally:
 ```bash
@@ -108,7 +108,7 @@ Open your browser at `http://localhost:8501` to access:
 
 ---
 
-## 📓 Running Jupyter Notebooks
+##  Running Jupyter Notebooks
 
 To run the interactive exploratory analysis notebook:
 ```bash
